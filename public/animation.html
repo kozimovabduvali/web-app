@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <title>Фото проекта</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="../../style.css" rel="stylesheet">
+  <link href="./css/output.css" rel="stylesheet">
   <style>
     body {
       background: #f2f2f2;
@@ -22,19 +22,6 @@
       margin-top: 350px;
       position: relative;
       z-index: 2;
-    }
-
-    .border-btn-2 {
-      background: #facc15;
-      border-radius: 48px;
-      font-weight: bold;
-      font-size: 25px;
-      padding: 20px 68px;
-      display: inline-block;
-      margin-top: 50px;
-      border: 2px solid transparent;
-      text-decoration: none;
-      color: #000;
     }
 
     canvas {
@@ -54,8 +41,13 @@
   <canvas id="fireworks"></canvas>
 
   <div class="wrapper">
-    <h3 class="text-[#404040] font-bold text-[35px]">Проект создан</h3>
-    <a href="../pages/about-projects.html" class="border-btn-2">К проекту</a>
+    <h3 class="text-[#404040] font-bold text-[35px] mb-5">Проект создан</h3>
+    <a href="#"
+      class="border-btn-2 hover-opacity-80 text-black leading-none rounded-[48px] mx-auto max-w-50 md:max-w-65 w-full h-10 lg:h-16 flex-main-center px-7.5">
+      <span class="font-medium lg:font-semibold text-sm md:text-base lg:text-xl">
+        Создать проект
+      </span>
+    </a>
   </div>
 
   <script>
