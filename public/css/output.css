@@ -879,6 +879,9 @@
   .max-w-full {
     max-width: 100%;
   }
+  .\!min-w-87\.5 {
+    min-width: calc(var(--spacing) * 87.5) !important;
+  }
   .min-w-8 {
     min-width: calc(var(--spacing) * 8);
   }
@@ -893,6 +896,12 @@
   }
   .min-w-75 {
     min-width: calc(var(--spacing) * 75);
+  }
+  .min-w-87 {
+    min-width: calc(var(--spacing) * 87);
+  }
+  .min-w-87\.5 {
+    min-width: calc(var(--spacing) * 87.5);
   }
   .flex-1 {
     flex: 1;
